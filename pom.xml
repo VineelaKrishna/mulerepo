@@ -50,10 +50,11 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>{mule.version}</muleVersion>
-						<applicationName>{appname}</applicationName>
+						<applicationName>${appname}</applicationName>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
 						<environment>${env}</environment>
+						<objectStoreV2>true</objectStoreV2>
 						<region>us-east-1</region>
 						<workers>${workers}</workers>
 						<workerType>${vCore}</workerType>
